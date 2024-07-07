@@ -1,20 +1,40 @@
-<div id="drag-container">
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/main.css">
+  <title>ParanaTiger - Portfolio</title>
+</head>
+
+<body>
+  <div id="drag-container">
     <div id="spin-container">
-      <img id="ilporto" src="imgs/il_porto_restaurant_logo_.PNG" alt="">
+      <!-- <img id="ilporto" src="imgs/il_porto_restaurant_logo_.PNG" alt=""> -->
+      <img id="ilporto" src="https://raw.githubusercontent.com/OchoaUnicen/paranatiger_portfolio/main/imgs/il_porto_restaurant_logo_.PNG" alt="">
       <!-- <img id="caferoma" src="imgs/cafe_roma_restaurant.png" alt=""> -->
       <img id="caferoma" src="https://raw.githubusercontent.com/OchoaUnicen/paranatiger_portfolio/main/imgs/cafe_roma_restaurant.png" alt="">
-     
-      <img id="law_firm" src="imgs/presentation_law_firm.JPG" alt="">
-      <img id="rpg" src="imgs/rpg.png" alt="">
-      <img id="cs" src="imgs/cristina_solis.PNG" alt="">
-      <img id="fg" src="imgs/fishing_game.png" alt="">
+      <!-- <img id="law_firm" src="imgs/presentation_law_firm.JPG" alt=""> -->
+      <img id="law_firm" src="https://raw.githubusercontent.com/OchoaUnicen/paranatiger_portfolio/main/imgs/presentation_law_firm.JPG" alt="">
+      
+      <img id="plumber" src="https://raw.githubusercontent.com/OchoaUnicen/paranatiger_portfolio/main/imgs/presentation_plumber_img.JPG" alt="">
+
+
+      
+
+      <!-- <img id="cs" src="imgs/cristina_solis.PNG" alt=""> -->
+      <img id="parana_tiger" src="https://raw.githubusercontent.com/OchoaUnicen/paranatiger_portfolio/main/imgs/paranatiger_portada_demostracion_img.JPG" alt="">
+
+      <!-- <img id="fg" src="imgs/fishing_game.png" alt=""> -->
 
       <script type="text/javascript">
         let ilporto = document.getElementById("ilporto");
         let caferoma = document.getElementById("caferoma");
         let law_firm = document.getElementById("law_firm");
-        let rpg = document.getElementById("rpg");
-        let cs = document.getElementById("cs");
+        let plumber = document.getElementById("plumber");
+        let parana_tiger = document.getElementById("parana_tiger");
         let fg = document.getElementById("fg");
 
         ilporto.style.cursor = "pointer";
@@ -32,14 +52,14 @@
           window.open("https://estudioochoaasociados.com.ar/", '_blank');
         });
 
-        rpg.style.cursor = "pointer";
-        rpg.addEventListener("click", function () {
-          window.open("https://ochoaunicen.github.io/rpg", '_blank');
+        plumber.style.cursor = "pointer";
+        plumber.addEventListener("click", function () {
+          window.open("https://plumber.paranatiger.com", '_blank');
         });
 
-        cs.style.cursor = "pointer";
-        cs.addEventListener("click", function () {
-          window.open("https://cristinasolis.com", '_blank');
+        parana_tiger.style.cursor = "pointer";
+        parana_tiger.addEventListener("click", function () {
+          window.open("https://paranatiger.com", '_blank');
         });
 
         fg.style.cursor = "pointer";
@@ -48,20 +68,18 @@
         });
       </script>
 
-      <p id="igna" style="font-size: 30px;">ParanaTiger Portfolio</p>
+      <p id="ParanaTiger" style="font-size: 30px;">ParanaTiger Portfolio</p>
       <script type="text/javascript">
-        igna.style.cursor = "pointer";
-        igna.addEventListener("click", function () {
-          window.open("https://ochoaunicen.github.io/cv", '_blank');
+        ParanaTiger.style.cursor = "pointer";
+        ParanaTiger.addEventListener("click", function () {
+          window.open("https://paranatiger.com", '_blank');
         });
       </script>
     </div>
     <div id="ground"></div>
   </div>
   <div id="music-container"></div>
-
   <script type="text/javascript">
-
 // Author: Hoang Tran (https://www.facebook.com/profile.php?id=100004848287494)
 // Github verson (1 file .html): https://github.com/HoangTran0410/3DCarousel/blob/master/index.html
 
@@ -194,3 +212,6 @@ document.onmousewheel = function(e) {
 
 
   </script>
+</body>
+
+</html>
